@@ -1,0 +1,28 @@
+[
+  {
+    "id": 3,
+    "productos": [],
+    "timestamp": "10/8/2022, 11:47:01 PM"
+  },
+  {
+    "id": 1,
+    "productos": [],
+    "timestamp": "10/8/2022, 11:47:00 PM"
+  },
+  {
+    "id": 2,
+    "productos": [
+      {
+        "id": 2,
+        "timestamp": "10/8/2022, 9:41:16 PM",
+        "nombre": "Lata Coca",
+        "descripcion": "Lata de coca cola de 352cc",
+        "codigo": "5345",
+        "thumbnail": "https://cdn3.iconfinder.com/data/icons/food-3-11/128/food_Soda-Pepsi-Cola-Coke-Beverage-512.png",
+        "precio": 5.2,
+        "stock": 400
+      }
+    ],
+    "timestamp": "10/8/2022, 11:47:01 PM"
+  }
+]
