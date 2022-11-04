@@ -1,6 +1,7 @@
-const express = require("express");
-const productos = require("../modules/productos");
-const carritos = require("../modules/carritos")
+import express from 'express';
+import productos from './modules/productos.js';
+import carritos from './modules/carritos.js';
+
 const PORT = 8080;
 const app = express();
 

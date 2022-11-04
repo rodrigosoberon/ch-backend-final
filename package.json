@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rodrigosoberon/ch-backend-final.git"
@@ -18,6 +19,10 @@
   },
   "homepage": "https://github.com/rodrigosoberon/ch-backend-final#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.2.0",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.0"
   }
 }
