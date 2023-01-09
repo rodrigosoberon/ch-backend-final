@@ -1,0 +1,25 @@
+<h1>Registrar usuario</h1>
+<form action="/register" method="post" autocomplete="off">
+    <div class="form-group">
+        <label for="username">Ingrese su dirección de correo</label>
+        <input id="username" class="form-control" type="email" name="username" required>
+        <label for="password">Ingrese una contraseña</label>
+        <input id="password" class="form-control" type="password" name="password" required>
+        <label for="name">Ingrese su nombre</label>
+        <input id="name" class="form-control" type="text" name="name">
+        <label for="address">Ingrese su dirección física</label>
+        <input id="address" class="form-control" type="text" name="address">
+        <label for="age">Ingrese su edad</label>
+        <input id="age" class="form-control" type="number" name="age">
+        <label for="phone">Ingrese su teléfono</label>
+        <input id="phone" class="form-control" type="text" name="phone">
+        <label for="avatarURL">Ingrese URL de foto de perfil</label>
+        <input id="avatarURL" class="form-control" type="text" name="avatarURL">
+    </div>
+    <button class="btn btn-success mt-3">Registrarse</button>
+</form>
+<hr>
+<form action="/login" method="get">
+    <p>Si ya tiene un usuario registrado:</p>
+    <button class="btn btn-primary">Ingresar</button>
+</form>
